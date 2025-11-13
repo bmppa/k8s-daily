@@ -41,6 +41,9 @@ daily/
 Each directory stands alone — no dependencies between days.  
 You can start anywhere, but following in order helps build context.
 
+[Get started today with Day 1](day-001/README.md)
+
+
 ---
 
 ## 🚀 How to Use
