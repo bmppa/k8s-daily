@@ -45,22 +45,23 @@ You can start anywhere, but following in order helps build context.
 
 ## 🚀 How to Use
 
-### Option 1: Run Locally with Kind or K3s
+### Option 1: Run in the browser with Killercoda (no system requirements)
+
+Each day includes lightweight YAMLs safe to run in public sandboxes.
+
+
+### Option 2: Run Locally with Kind or K3s
 
 ```bash
 # Create a local cluster
 kind create cluster --name k8s-lab
 
 # Apply today’s manifests
-kubectl apply -f day01/manifests/
+kubectl apply -f day-001/manifests/
 
 # Explore results
 kubectl get all -A
 ```
-
-Option 2: Run in a Sandbox (Killercoda or Play with Kubernetes)
-
-Each day includes lightweight YAMLs safe to run in public sandboxes.
 
 ---
 
