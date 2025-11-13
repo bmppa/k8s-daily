@@ -26,14 +26,14 @@ You’ll develop muscle memory for daily Kubernetes operations and uncover how d
 ## 🗂 Repository Structure
 
 ```
-one-k8s-a-day/
-├── day01/
+daily/
+├── day-001/
 │   ├── README.md        # Context, commands, and output
 │   └── manifests/       # YAML files
-├── day02/
+├── day-002/
 │   ├── README.md
 │   └── manifests/
-├── day03/
+├── day-003/
 │   └── …
 └── …
 ```
