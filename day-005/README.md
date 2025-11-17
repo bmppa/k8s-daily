@@ -17,7 +17,7 @@ A cluster running Kubernetes v1.25 or above.
 ### 📁 **Folder structure**
 
 ```
-k8s-psa-lab/
+manifests/
 ├── namespace.yaml
 ├── privileged-pod.yaml
 └── restricted-pod.yaml
