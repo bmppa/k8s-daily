@@ -116,3 +116,13 @@ kubectl apply -f restricted-pod.yaml
 ```bash
 pod/restricted-pod created
 ```
+
+---
+
+### ✅ **Step 4: Cleanup**
+
+To cleanup the environment, run the following command:
+
+```bash
+kubectl apply -f namespace.yaml
+```
