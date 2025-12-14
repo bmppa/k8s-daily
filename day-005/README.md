@@ -1,27 +1,26 @@
-## 🧪 **Pod Security Admission Lab**
+# Day 28: Pod Security Admission
 
+## THE IDEA:
 This lab will show you how to:
 
 1. Enable PSA on a namespace
 2. Attempt to deploy a non-compliant pod
 3. Modify the pod to comply with the `restricted` profile
 
----
-
-### 📁 **Requirments**
+## THE SETUP:
 
 A cluster running Kubernetes v1.25 or above.
 
----
+## WHAT I LEARNED:
+Kubernetes offers a built-in Pod Security admission controller to enforce the Pod Security Standards.
+Pod security restrictions are applied at the namespace level when pods are created.
 
-### 📁 **Folder structure**
+## WHY IT MATTERS:
+Kubernetes can block risky workloads before they run, using the native PSA — no 3rd party tools needed!
+Good for quick, standard security posture enforcement.
 
-```
-manifests/
-├── namespace.yaml
-├── privileged-pod.yaml
-└── restricted-pod.yaml
-```
+TRY IT:
+🧪 Interactive Lab: https://killercoda.com/chadmcrowell/course/kubeskills-daily/day-028
 
 ---
 
